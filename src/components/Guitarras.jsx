@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import acustica from '../images/invie-acustica.png'
+import acustica from '../images/invie-acustica.png';
+import classic from '../images/invie-classic.png';
 
 export default class Guitarras extends Component {
     render() {
@@ -9,13 +10,13 @@ export default class Guitarras extends Component {
       <div className="video-demo-contenedor">
         <div className="video-demo">
           <div className="video-responsive-contenedor">
-            <iframe  className="video-responsive-src" width="560" height="315" src="https://www.youtube.com/embed/R1dW8M4EqYY" frameBorder="0" allowFullScreen> </iframe>
+            <iframe  className="video-responsive-src" width="560" height="315" src="https://www.youtube.com/embed/R1dW8M4EqYY" frameBorder="0" allowFullScreen></iframe>
           </div>
         </div>
       </div>
      
       <article className="guitarra"> 
-        <img className="derecha" data-src={acustica}  alt="Guitarra Invie Acustica" width="350"/>
+        <img className="derecha" src={acustica}  alt="Guitarra Invie Acustica" width="350"/>
         <div className="contenedor-guitarra-a">
           <h3 className="title-b">Invie Acustica</h3>
           <ol>
@@ -26,7 +27,7 @@ export default class Guitarras extends Component {
         </div>
       </article>
       <article className="guitarra b"> 
-        <img className="izquierda" data-src="images/invie-classic.png|images/invie-classic2x.png" alt="Guitarra Invie Classic" width="350"/>
+        <img className="izquierda" src={classic}  alt="Guitarra Invie Classic" width="350"/>
         <div className="contenedor-guitarra-b">
           <h3 className="title-b">Invie Classic</h3>
           <ol>

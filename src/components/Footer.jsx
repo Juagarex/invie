@@ -1,5 +1,5 @@
-import React, { PureComponent } from 'react'
-
+import React, { PureComponent } from 'react';
+import logoWhite from '../images/invie-white.png';
 
 export default class Footer extends PureComponent {
     render() {
@@ -7,7 +7,7 @@ export default class Footer extends PureComponent {
             <footer className="footer">
       <div className="contenedor">
         <div className="contacto">
-          <img data-src="images/invie-white.png|images/invie-white2x.png" alt="logotipo blanco"/>
+          <img src={logoWhite} alt="logotipo blanco"/>
           <a href="tel:+573024456678"><strong>Telefono</strong> <span>3024456678</span></a>
           <a href="mailto:contacto@invie.com"><strong>E-mail</strong> <span>contacto@invie.com</span></a>
         </div>

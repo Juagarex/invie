@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../images/invie.png';
+import logox2 from '../images/invie2x.png';
 
 export default class portada extends Component {
     render() {
@@ -7,7 +8,7 @@ export default class portada extends Component {
             <section id="portada" className="portada background"> 
       <header id="header" className="header contenedor"> 
         <figure className="logotipo"> 
-          <img src={logo} srcSet="images/invie.png 1x, images/invie2x.png 2x" width="186" height="60" alt="Invie logotipo"/>
+          <img src={logo} srcSet={logox2} width="186" height="60" alt="Invie logotipo"/>
         </figure>
         <span className="burguer-button icon-menu" id="burguer-button"></span>
         <nav className="menu" id="menu">
